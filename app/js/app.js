@@ -10,6 +10,6 @@ angular.module('myApp', [
     'myApp.controllers'
 ]).
     config(['$routeProvider', function ($routeProvider) {
-        $routeProvider.when('/maverix', {templateUrl: 'app/partials/maverix.html', controller: 'MaverixCtrl'});
+        $routeProvider.when('/maverix', {templateUrl: 'app/partials/foo.html', controller: 'MaverixCtrl'});
         $routeProvider.otherwise({redirectTo: '/maverix'});
     }]);
